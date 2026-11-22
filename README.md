@@ -17,3 +17,4 @@ code .
 3. Make sure you have docker desktop created, set up, and open on your machine
 4. Run `docker-compose up`
 5. You should now be able to view the backend API health check at http://localhost:5000/api/health and the entire app at http://localhost:3000/
+6. To close the application just run `docker-compose down`
