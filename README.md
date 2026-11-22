@@ -5,7 +5,7 @@ My application is going to be a database for the game Deadlock. This application
 - Frontend: React 
 - Backend: Express
 - No AI was used in the creation of this app
-##Status:
+## Status:
 MVP done, needing to add build creation and displaying and cloud deployment
 ## Setup Instructions
 2. Use these commands to copy the repo
