@@ -85,13 +85,6 @@ const characters = [
           tag3: 'Clutch'
         },
         {
-          name: 'Dynamo',
-          image: 'https://cdn.deadlock.wiki/thumb/Dynamo_card.png/150px-Dynamo_card.png',
-          tag1: 'Teamplay',
-          tag2: 'Initiator',
-          tag3: 'Clutch'
-        },
-        {
           name: 'Graves',
           image: 'https://cdn.deadlock.wiki/thumb/Graves_card.png/150px-Graves_card.png',
           tag1: 'Morbid',
@@ -104,13 +97,6 @@ const characters = [
           tag1: 'Precision',
           tag2: 'Hunter',
           tag3: 'Area Denial'
-        },
-        {
-          name: 'Haze',
-          image: 'https://cdn.deadlock.wiki/thumb/Haze_card.png/150px-Haze_card.png',
-          tag1: 'Assassin',
-          tag2: 'Stealthy',
-          tag3: 'Lethal'
         },
         {
           name: 'Haze',
@@ -399,7 +385,7 @@ const items = [
         },
         {
           name: 'Active Reload',
-          image: 'https://cdn.deadlock.wiki/thumb/Restorative_Shot.png/144px-Restorative_Shot.png',
+          image: 'https://cdn.deadlock.wiki/thumb/Active_Reload.png/144px-Active_Reload.png',
           price: 1600,
           type: 'Weapon',
           info: 'https://deadlock.wiki/Restorative_Shot'
@@ -482,25 +468,18 @@ const items = [
           info: 'https://deadlock.wiki/Split_Shot'
         },
         {
-          name: 'Split Shot',
+          name: 'Stalker',
           image: 'https://cdn.deadlock.wiki/thumb/Stalker.png/144px-Stalker.png',
           price: 1600,
           type: 'Weapon',
           info: 'https://deadlock.wiki/Stalker'
         },
         {
-          name: 'Split Shot',
+          name: 'Swift Striker',
           image: 'https://cdn.deadlock.wiki/thumb/Swift_Striker.png/144px-Swift_Striker.png',
           price: 1600,
           type: 'Weapon',
           info: 'https://deadlock.wiki/Swift_Striker'
-        },
-        {
-          name: 'Titanic Magazinet',
-          image: 'https://cdn.deadlock.wiki/thumb/Titanic_Magazine.png/144px-Titanic_Magazine.png',
-          price: 1600,
-          type: 'Weapon',
-          info: 'https://deadlock.wiki/Titanic_Magazine'
         },
         {
           name: 'Titanic Magazine',
@@ -651,7 +630,7 @@ const items = [
         },
         {
           name: 'Armor Piercer',
-          image: 'https://cdn.deadlock.wiki/thumb/Armor_Piercer.png/144px-Armor_Piercers.png',
+          image: 'https://cdn.deadlock.wiki/thumb/Armor_Piercer.png/144px-Armor_Piercer.png',
           price: 6400,
           type: 'Weapon',
           info: 'https://deadlock.wiki/Armor_Piercer'
@@ -725,27 +704,6 @@ const items = [
           price: 6400,
           type: 'Weapon',
           info: 'https://deadlock.wiki/Spiritual_Overflow'
-        },
-        {
-          name: 'Haunting Shot',
-          image: 'https://cdn.deadlock.wiki/thumb/Haunting_Shot.png/144px-Haunting_Shot.png',
-          price: 6400,
-          type: 'Weapon',
-          info: 'https://deadlock.wiki/Haunting_Shot'
-        },
-        {
-          name: 'Infinite Rounds',
-          image: 'https://cdn.deadlock.wiki/thumb/Infinite_Rounds.png/144px-Infinite_Rounds.png',
-          price: 6400,
-          type: 'Weapon',
-          info: 'https://deadlock.wiki/Infinite_Rounds'
-        },
-        {
-          name: 'Runed Gauntlets',
-          image: 'https://cdn.deadlock.wiki/thumb/Runed_Gauntlets.png/144px-Runed_Gauntlets.png',
-          price: 6400,
-          type: 'Weapon',
-          info: 'https://deadlock.wiki/Runed_Gauntlets'
         },
         {
           name: 'Extra Charge',
@@ -951,13 +909,6 @@ const items = [
           info: 'https://deadlock.wiki/Superior_Duration'
         },
         {
-          name: 'Surge_of_Power',
-          image: 'https://cdn.deadlock.wiki/thumb/Surge_of_Power.png/144px-Surge_of_Power.png',
-          price: 3200,
-          type: 'Spirit',
-          info: 'https://deadlock.wiki/Surge_of_Power'
-        },
-        {
           name: 'Surge of Power',
           image: 'https://cdn.deadlock.wiki/thumb/Surge_of_Power.png/144px-Surge_of_Power.png',
           price: 3200,
@@ -970,13 +921,6 @@ const items = [
           price: 3200,
           type: 'Spirit',
           info: 'https://deadlock.wiki/Tankbuster'
-        },
-        {
-          name: 'Torment Pulse',
-          image: 'https://cdn.deadlock.wiki/thumb/Torment_Pulse.png/144px-Torment_Pulse.png',
-          price: 3200,
-          type: 'Spirit',
-          info: 'https://deadlock.wiki/Torment_Pulse'
         },
         {
           name: 'Torment Pulse',
@@ -1091,21 +1035,21 @@ const items = [
           info: 'https://deadlock.wiki/Transcendent_Cooldown'
         },
         {
-          name: 'Vortex_Web',
+          name: 'Vortex Web',
           image: 'https://cdn.deadlock.wiki/thumb/Vortex_Web.png/144px-Vortex_Web.png',
           price: 6400,
           type: 'Spirit',
           info: 'https://deadlock.wiki/Vortex_Web'
         },
         {
-          name: 'Extra_Health',
+          name: 'Extra Health',
           image: 'https://cdn.deadlock.wiki/thumb/Extra_Health.png/144px-Extra_Health.png',
           price: 800,
           type: 'Vitality',
           info: 'https://deadlock.wiki/Extra_Health'
         },
         {
-          name: 'Extra_Regen',
+          name: 'Extra Regen',
           image: 'https://cdn.deadlock.wiki/thumb/Extra_Regen.png/144px-Extra_Regen.png',
           price: 800,
           type: 'Vitality',
@@ -1126,7 +1070,7 @@ const items = [
           info: 'https://deadlock.wiki/Grit'
         },
         {
-          name: 'Melee_Lifesteal',
+          name: 'Melee Lifesteal',
           image: 'https://cdn.deadlock.wiki/thumb/Melee_Lifesteal.png/144px-Melee_Lifesteal.png',
           price: 800,
           type: 'Vitality',
@@ -1134,7 +1078,7 @@ const items = [
         },
         {
           name: 'Rebuttal',
-          image: 'https://cdn.deadlock.wiki/thumb/Melee_Lifesteal.png/144px-Melee_Lifesteal.png',
+          image: 'https://cdn.deadlock.wiki/thumb/Rebuttal.png/144px-Rebuttal.png',
           price: 800,
           type: 'Vitality',
           info: 'https://deadlock.wiki/Melee_Lifesteal'
@@ -1173,13 +1117,6 @@ const items = [
           price: 1600,
           type: 'Vitality',
           info: 'https://deadlock.wiki/Enchanter%27s_Emblem'
-        },
-        {
-          name: 'Enduring_Speed',
-          image: 'https://cdn.deadlock.wiki/thumb/Enduring_Speed.png/144px-Enduring_Speed.png',
-          price: 1600,
-          type: 'Vitality',
-          info: 'https://deadlock.wiki/Enduring_Speed'
         },
         {
           name: 'Enduring Speed',
@@ -1238,13 +1175,6 @@ const items = [
           info: 'https://deadlock.wiki/Spirit_Lifesteal_(item)'
         },
         {
-          name: 'Spirit Lifesteal',
-          image: 'https://cdn.deadlock.wiki/thumb/Spirit_Lifesteal.png/144px-Spirit_Lifesteal.png',
-          price: 1600,
-          type: 'Vitality',
-          info: 'https://deadlock.wiki/Spirit_Lifesteal_(item)'
-        },
-        {
           name: 'Spirit Shielding',
           image: 'https://cdn.deadlock.wiki/thumb/Spirit_Shielding.png/144px-Spirit_Shielding.png',
           price: 1600,
@@ -1259,7 +1189,7 @@ const items = [
           info: 'https://deadlock.wiki/Trophy_Collector'
         },
         {
-          name: 'Weapon_Shielding',
+          name: 'Weapon Shielding',
           image: 'https://cdn.deadlock.wiki/thumb/Weapon_Shielding.png/144px-Weapon_Shielding.png',
           price: 1600,
           type: 'Vitality',
@@ -1294,7 +1224,7 @@ const items = [
           info: 'https://deadlock.wiki/Fortitude'
         },
         {
-          name: 'Fury_Trance',
+          name: 'Fury Trance',
           image: 'https://cdn.deadlock.wiki/thumb/Fury_Trance.png/144px-Fury_Trance.png',
           price: 3200,
           type: 'Vitality',
@@ -1357,7 +1287,7 @@ const items = [
           info: 'https://deadlock.wiki/Veil_Walker'
         },
         {
-          name: 'Warp_Stone',
+          name: 'Warp Stone',
           image: 'https://cdn.deadlock.wiki/thumb/Warp_Stone.png/144px-Warp_Stone.png',
           price: 3200,
           type: 'Vitality',
@@ -1378,7 +1308,7 @@ const items = [
           info: 'https://deadlock.wiki/Colossus'
         },
         {
-          name: 'Divine_Barrier',
+          name: 'Divine Barrier',
           image: 'https://cdn.deadlock.wiki/thumb/Divine_Barrier.png/144px-Divine_Barrier.png',
           price: 6400,
           type: 'Vitality',
@@ -1392,7 +1322,7 @@ const items = [
           info: 'https://deadlock.wiki/Diviner%27s_Kevlar'
         },
         {
-          name: 'Healing_Tempo',
+          name: 'Healing Tempo',
           image: 'https://cdn.deadlock.wiki/thumb/Healing_Tempo.png/144px-Healing_Tempo.png',
           price: 6400,
           type: 'Vitality',
